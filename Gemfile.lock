@@ -1,7 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    crass (1.0.5)
+    loofah (2.2.3)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mini_portile2 (2.4.0)
     mustermann (1.0.3)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     rack (2.0.7)
     rack-protection (2.0.7)
       rack
@@ -16,6 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  loofah (~> 2.2.0)
   sinatra
 
 BUNDLED WITH
