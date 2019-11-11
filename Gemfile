@@ -5,4 +5,4 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "sinatra"
-gem "loofah", "~> 2.2.0"
+gem "loofah", "~> 2.3.1"
